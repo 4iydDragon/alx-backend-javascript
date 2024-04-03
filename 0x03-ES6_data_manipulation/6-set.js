@@ -3,6 +3,6 @@
  * @param {Array} array - The source array.
  * @returns {Set}
  */
-const setFromArray = array => new Set(array);
-
-export default setFromArray;
+export default function setFromArray(array) {
+  return new Set(array);
+}

@@ -1,4 +1,3 @@
-/* eslint-disable no-underscore-dangle */
 export default class Currency {
   constructor(code, name) {
     this.code = code;
@@ -21,6 +20,10 @@ export default class Currency {
     this._name = value;
   }
 
+  /**
+   * Creates the full string representation of this Currency.
+   * @returns {String}
+   */
   displayFullCurrency() {
     return `${this.name} (${this.code})`;
   }
