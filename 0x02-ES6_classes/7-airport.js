@@ -1,3 +1,4 @@
+/* eslint-disable no-underscore-dangle */
 export default class Airport {
   constructor(name, code) {
     this.name = name;
@@ -20,7 +21,7 @@ export default class Airport {
     this._code = value;
   }
 
-  get [Symbol.toStringTag]() {
-    return this._code;
+  toString() {
+    return `[object ${this.code}]`;
   }
 }

@@ -1,1 +1,3 @@
-# ES6 Data Manipulation
+# 0x11. ES6 data manipulation
+
+## Specializations - Javascript Backend

@@ -1,2 +1,1 @@
-# ES6 Classes
-classes is the way to go
+## 0x02-ES6_classes
